@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter --> Function defaultnya membutuhkan pengubah
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,         // Mengatur aligment
-
+        verticalArrangement = Arrangement.Center,
     )
 
     {
