@@ -59,7 +59,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
                     )
                 )
             )
-
+            .padding(20.dp)                     // Jarak dari sisi layar
     )
 
     {
