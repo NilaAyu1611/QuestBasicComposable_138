@@ -101,6 +101,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         // Membuat Nama "Nila Ayu Citra Wulan"
         Text(
             text = "Nila Ayu Citra Wulan",
+            style = TextStyle(
+                fontSize = 23.sp,
+                fontWeight = FontWeight.SemiBold,
+                fontFamily = FontFamily.Monospace,
+                color = Color(0xFF473100)
+
+            ),
 
         )
 
