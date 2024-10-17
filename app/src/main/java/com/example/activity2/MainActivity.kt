@@ -95,7 +95,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
                 color = Color(0xFF2f4f4f)
 
             ),
-
+            modifier = Modifier.padding(top = 20.dp)
         )
 
 
