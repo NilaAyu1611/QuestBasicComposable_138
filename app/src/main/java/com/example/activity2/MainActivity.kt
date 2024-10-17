@@ -135,6 +135,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
                 .padding(top = 5.dp)
                 .size(450.dp)
                 .clip(RoundedCornerShape(525.dp))           // Untuk membulatkan sudut gambar
+                .border(
+                    width = 5.dp,                           // Ketebalan bingkai
+                    color = Color.LightGray,                // Warna bingkai
+                    shape = RoundedCornerShape(125.dp)      // Membentuk sudut bingkai membulat
+                )
+
 
         )
 
