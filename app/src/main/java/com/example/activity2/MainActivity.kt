@@ -54,7 +54,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
             style = TextStyle(                  // Memberikan stylenya untuk ukuran,dan ketebalan
                 fontSize = 70.sp,
                 fontWeight = FontWeight.Bold,
-
+                color = Color(0xFF1C2833)   // Memberikan warna
 
             )
 
