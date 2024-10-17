@@ -39,6 +39,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,         // Mengatur aligment
         verticalArrangement = Arrangement.Center,
+        modifier = Modifier
+            .fillMaxSize()                             // Mengatur Column agar mengisi seluruh string didalam tersebut.
+
     )
 
     {
