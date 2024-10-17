@@ -51,6 +51,14 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         verticalArrangement = Arrangement.Center,
         modifier = Modifier
             .fillMaxSize()                             // Mengatur Column agar mengisi seluruh string didalam tersebut.
+            .background(                               // Memberi warna background
+                brush = Brush.linearGradient(           // Warna gradient
+                    colors = listOf(
+                        Color(0xFFF9C6CF),  // Pink
+                        Color(0xFF808080)   // Abu-abu
+                    )
+                )
+            )
 
     )
 
