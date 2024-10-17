@@ -64,7 +64,14 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         // Membuat Deskripsi "Ini adalah halaman Login"
         Text(
             text = "Ini adalah halaman Login",
-            
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Medium,
+                fontFamily = FontFamily.Cursive,        // Menggunakan font gaya cursive
+                color = Color(0xFF2f4f4f)
+
+            ),
+
         )
 
 
