@@ -86,6 +86,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
                 .size(200.dp)               // Mengatur ukuran gambar
         )
 
+        // Membuat Teks "Nama"
+        Text(
+            text = "Nama",
+
+        )
+
 
 
     }
