@@ -98,6 +98,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
             modifier = Modifier.padding(top = 20.dp)
         )
 
+        // Membuat Nama "Nila Ayu Citra Wulan"
+        Text(
+            text = "Nila Ayu Citra Wulan",
+
+        )
+
 
 
     }
