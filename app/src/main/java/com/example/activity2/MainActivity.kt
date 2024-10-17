@@ -114,6 +114,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         // Membuat NIM "20220140138"
         Text(
             text = "20220140138",
+            style = TextStyle(
+                fontSize = 35.sp,                       // .sp --> untuk text
+                fontWeight = FontWeight.Medium,
+                fontFamily = FontFamily.Serif,
+                color = Color(0xFF780027)
+
+            ),
 
         )
 
