@@ -51,6 +51,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         // Membuat Teks "Login"
         Text(
             text = "Login",
+            style = TextStyle(                  // Memberikan stylenya untuk ukuran,dan ketebalan
+                fontSize = 70.sp,
+                fontWeight = FontWeight.Bold,
+
+
+            )
 
         )
 
