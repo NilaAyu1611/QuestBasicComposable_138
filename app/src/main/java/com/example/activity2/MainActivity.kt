@@ -111,6 +111,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
             modifier = Modifier.padding(top = 10.dp)
         )
 
+        // Membuat NIM "20220140138"
+        Text(
+            text = "20220140138",
+
+        )
+
 
 
     }
