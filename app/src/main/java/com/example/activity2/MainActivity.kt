@@ -131,6 +131,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         Image(
             painter = painterResource(id = R.drawable.nila),
             contentDescription = "Foto Diri",
+            modifier = Modifier
+                .padding(top = 5.dp)
+                .size(450.dp)
+                .clip(RoundedCornerShape(525.dp))           // Untuk membulatkan sudut gambar
 
         )
 
