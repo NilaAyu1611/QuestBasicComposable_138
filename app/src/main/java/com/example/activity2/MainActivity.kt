@@ -140,8 +140,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
                     color = Color.LightGray,                // Warna bingkai
                     shape = RoundedCornerShape(125.dp)      // Membentuk sudut bingkai membulat
                 )
-
-
+                .padding(10.dp)                              // Jarak antara gambar dan bingkai
         )
 
 
