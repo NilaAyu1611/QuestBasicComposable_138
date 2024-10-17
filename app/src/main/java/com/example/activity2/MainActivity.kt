@@ -42,6 +42,6 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
 @Composable
 fun GreetingPreview() {
     Activity2Theme {
-        Greeting("Android")
+        BasicCompose()              // Memanggil fungsi composable BasicCompose()
     }
 }
