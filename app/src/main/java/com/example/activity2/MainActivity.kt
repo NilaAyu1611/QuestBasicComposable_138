@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter --> Function defaultnya membutuhkan pengubah
     Text(
         text = "Hello $name!",
         modifier = modifier
