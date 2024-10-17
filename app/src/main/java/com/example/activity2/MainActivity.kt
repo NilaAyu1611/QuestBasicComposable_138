@@ -89,6 +89,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         // Membuat Teks "Nama"
         Text(
             text = "Nama",
+            style = TextStyle(
+                fontSize = 17.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color(0xFF2f4f4f)
+
+            ),
 
         )
 
