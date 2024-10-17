@@ -81,8 +81,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {       // Memberikan parameter 
         Image(
             painter = painterResource(id = R.drawable.umyy),    // fungsi untuk memuat gambar pd res yang terdapat di drawable
             contentDescription = null,
-
-
+            modifier = Modifier
+                .padding(top = 25.dp)       // Mengatur jaraknya agar tidak nempel atasnya
+                .size(200.dp)               // Mengatur ukuran gambar
         )
 
 
